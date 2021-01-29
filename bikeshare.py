@@ -141,6 +141,7 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # Display total travel time
+    # Refactor string formating
     total_duration = df['Trip Duration'].sum()
     minute, second = divmod(total_duration, 60)
     hour, minute = divmod(minute, 60)
