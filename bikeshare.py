@@ -6,7 +6,8 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+              
+#dictionarys for the Months and Days
 months = {'january':1, 'february':2, 'march':3, 'april':4, 'may':5, 'june':6, 'all':7}
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
