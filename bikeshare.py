@@ -92,6 +92,7 @@ def time_stats(df):
     start_time = time.time()
 
     # Display the most common month
+    #Refactor unnecessary core in Loop (if any)
     common_month = df['month'].mode()[0]
     for name, number in months.items():
         if number == common_month:
