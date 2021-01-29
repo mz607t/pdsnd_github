@@ -203,6 +203,7 @@ def display_data(df):
             print("I didn't get that... Please try again.\n")
 
     #Extra while loop here to ask user if they want to continue viewing data
+    #If they are finished (type something other than 'yes') the loop breaks
     while rdata == 'yes':
         print("Do you wish to view more raw data?")
         counter += 5
