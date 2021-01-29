@@ -9,9 +9,6 @@ This project shows my ability to work with VCS
 
 ### Files used
 bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
 
 ### Credits
 https://www.udacity.com/
